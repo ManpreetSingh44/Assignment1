@@ -1,0 +1,49 @@
+ .section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .logo{
+    width: 100px;
+  }
+  .nav-link{
+    color: #ffffff;
+  }
+/*---------------------------------------
+  AVATAR IMAGE               
+-----------------------------------------*/
+.avatar-image {
+    border-radius:50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .avatar-image-large {
+    width: 90.4px;
+    height: 90.4px;
+  }
+
+/*
+  Home page styles              
+-----------------------------------------*/
+.hero {
+    background:#6dda91;
+    position: relative;
+    overflow: hidden;
+    padding-top: 330px;
+    padding-bottom: 330px;
+  }
+  
+  @media  screen and (min-width: 991px) {
+    .hero {
+      height: 60vh;
+    }
+  }
+  /* About */
+.about-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+.mission-statement {
+    font-size: 20px;
+}
