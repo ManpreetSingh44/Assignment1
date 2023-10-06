@@ -46,3 +46,10 @@
     // attach to window onLoad event listener
     window.addEventListener('load', Start);
 })();
+document.getElementById('abc').addEventListener('submit', function (a) {
+    a.preventDefault();
+    const fullName = document.getElementById('fullName').value;
+    const contactNumber = document.getElementById('contactNumber').value;
+    const shortMessage = document.getElementById('shortMessage').value;
+    window.location.href = 'views/about.html';
+})
